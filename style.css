@@ -1,0 +1,43 @@
+ol {
+    list-style: none;
+}
+
+ol > li:before{
+    content: '✔   ';
+    color: green;
+}
+
+.main-img {
+    max-width: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+
+.img {
+    max-width: 15rem !important;
+    max-height: 188px;
+}
+
+.or {
+    display: flex;
+    text-align: center;
+    color: #6c7378;
+}
+
+.or::after {
+    content: "";
+    display: block;
+    width: 100%;
+    margin: 0.5em;
+    border-bottom: 1px solid;
+    color: #6c7378;
+  }
+
+.or::before {
+    content: "";
+    display: block;
+    width: 100%;
+    margin: 0.5em;
+    border-bottom: 1px solid;
+    color: #6c7378;
+}

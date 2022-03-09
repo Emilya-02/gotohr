@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>gotohr</title>
+
+  <link rel="stylesheet" href="./styles/app.scss">
+  <link rel="stylesheet" href="./style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+  <header class="fixed-top shadow-sm bg-white">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light bg-white mx-5 px-5">
+        <a class="navbar-brand ml-5" href="#main"><img src="images/logo.png"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+          <ul class="navbar-nav align-items-center mr-auto">
+            <li><a href="#tariff" class="nav-link px-2 text-dark me-4"><strong>О продукте</strong></a></li>
+            <li><a href="#publish" class="nav-link px-2 text-dark me-4"><strong>Опубликовать вакансию</strong></a></li>
+            <li><a href="#tariff" class="nav-link px-2 text-dark me-4"><strong>Тарифы</strong></a></li>
+            <li><a href="#contact" class="nav-link px-2 text-dark me-4"><strong>Контакты</strong></a></li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <button class="btn btn-primary my-2 my-sm-0 rounded-pill mx-3" type="submit">Вход</button>
+            <button class="btn btn-outline-primary my-2 my-sm-0 rounded-pill mx-3" type="submit">Регистрация</button>
+          </form>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <main class="mt-5">
+    <div class="container align-items-center py-5 my-5 mx-auto">
+      <form class="mt-5">
+        <div class="row justify-content-center">
+          <div class="col-12 col-sm-8 col-md-6 col-lg-4 border shadow-sm p-5">
+            <img src="images/logo.png" class="mb-3 d-block mx-auto">
+            <p class="lead fw-weight-bolder text-center">Зарегистрироваться</p>
+            <button class="submit form-control mb-3"><img src="./images/google-logo.png" width="24px" class="mr-2">Sign up with Google</button>
+            <p class="or">or</p>
+            <input type="text" class="form-control border border-dark mb-3" id="Email" placeholder="Email">
+            <input type="text" class="form-control border border-dark mb-3" id="Password" placeholder="Пароль">
+            <button class="btn btn-primary form-control mb-3">Зарегистрироваться</button>
+            <p class="or">or</p>
+            <button class="btn btn-light form-control mb-3">Войти</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</main>
+</body>
+</html>
